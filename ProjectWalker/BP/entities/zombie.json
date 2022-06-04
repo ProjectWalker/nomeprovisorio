@@ -8,294 +8,62 @@
 		},
 		"component_groups": {
 			//isso faz com que ele proucure o projetil.
-			"pw:find_sound": {
-				"minecraft:variant": {
-					"value": 1
-				},
-				"minecraft:follow_range": {
-					"value": 100,
-					"max": 100
-				},
-				"minecraft:timer": {
-					"looping": true,
-					"time": [
-						25,
-						40
-					],
-					"time_down_event": {
-						"event": "pw:find_sound_remove"
-					}
-				}
-			},
+			"pw:find_sound": {"minecraft:variant": {"value": 1},"minecraft:follow_range": {"value": 100,"max": 100},"minecraft:timer": {"looping": true,"time": [25,40],"time_down_event": {"event": "pw:find_sound_remove"}}},
 			//
-			"pw:calm": {
-				"minecraft:variant": {
-					"value": 0
-				},
-				"minecraft:follow_range": {
-					"value": 25,
-					"max": 25
-				}
-			},
-			"pw:despawn": {
-				"minecraft:instant_despawn": {}
-			},
+			"pw:calm": {"minecraft:variant": {"value": 0},"minecraft:follow_range": {"value": 25,"max": 25}},
+			"pw:despawn": {"minecraft:instant_despawn": {}},
 			//pode se adicionar mais skins
-			"pw:skin_0": {
-				"minecraft:skin_id": {
-					"value": 0
-				}
-			},
-			"pw:skin_1": {
-				"minecraft:skin_id": {
-					"value": 1
-				}
-			},
-			"pw:skin_2": {
-				"minecraft:skin_id": {
-					"value": 2
-				}
-			},
-			"pw:skin_3": {
-				"minecraft:skin_id": {
-					"value": 3
-				}
-			},
-			"pw:skin_4": {
-				"minecraft:skin_id": {
-					"value": 4
-				}
-			},
-			"pw:skin_5": {
-				"minecraft:skin_id": {
-					"value": 5
-				}
-			},
-			"pw:skin_6": {
-				"minecraft:skin_id": {
-					"value": 6
-				}
-			},
-			"pw:skin_7": {
-				"minecraft:skin_id": {
-					"value": 7
-				}
-			},
-			"pw:skin_8": {
-				"minecraft:skin_id": {
-					"value": 8
-				}
-			},
-			"pw:skin_9": {
-				"minecraft:skin_id": {
-					"value": 9
-				}
-			},
-			"pw:skin_10": {
-				"minecraft:skin_id": {
-					"value": 10
-				}
-			},
-			"pw:skin_11": {
-				"minecraft:skin_id": {
-					"value": 11
-				}
-			},
-			"pw:skin_12": {
-				"minecraft:skin_id": {
-					"value": 12
-				}
-			},
-			"pw:skin_13": {
-				"minecraft:skin_id": {
-					"value": 13
-				}
-			},
-			"pw:skin_14": {
-				"minecraft:skin_id": {
-					"value": 14
-				}
-			},
-			"pw:skin_15": {
-				"minecraft:skin_id": {
-					"value": 15
-				}
-			},
-			"pw:skin_16": {
-				"minecraft:skin_id": {
-					"value": 16
-				}
-			},
-			"pw:skin_17": {
-				"minecraft:skin_id": {
-					"value": 17
-				}
-			},
-			"pw:skin_18": {
-				"minecraft:skin_id": {
-					"value": 18
-				}
-			},
-			"pw:skin_19": {
-				"minecraft:skin_id": {
-					"value": 19
-				}
-			},
-			"pw:skin_20": {
-				"minecraft:skin_id": {
-					"value": 20
-				}
-			},
-			"pw:skin_21": {
-				"minecraft:skin_id": {
-					"value": 21
-				}
-			},
-			"pw:skin_22": {
-				"minecraft:skin_id": {
-					"value": 22
-				}
-			},
-			"pw:skin_23": {
-				"minecraft:skin_id": {
-					"value": 23
-				}
-			},
-			"pw:skin_24": {
-				"minecraft:skin_id": {
-					"value": 24
-				}
-			},
-			"pw:skin_25": {
-				"minecraft:skin_id": {
-					"value": 25
-				}
-			},
-			"pw:skin_26": {
-				"minecraft:skin_id": {
-					"value": 26
-				}
-			},
-			"pw:skin_27": {
-				"minecraft:skin_id": {
-					"value": 27
-				}
-			},
-			"pw:skin_28": {
-				"minecraft:skin_id": {
-					"value": 28
-				}
-			},
-			"pw:skin_29": {
-				"minecraft:skin_id": {
-					"value": 29
-				}
-			},
-			"pw:skin_30": {
-				"minecraft:skin_id": {
-					"value": 30
-				}
-			},
-			"pw:skin_31": {
-				"minecraft:skin_id": {
-					"value": 31
-				}
-			},
-			"pw:skin_32": {
-				"minecraft:skin_id": {
-					"value": 32
-				}
-			},
-			"pw:skin_33": {
-				"minecraft:skin_id": {
-					"value": 33
-				}
-			},
-			"pw:skin_34": {
-				"minecraft:skin_id": {
-					"value": 34
-				}
-			},
-			"pw:skin_35": {
-				"minecraft:skin_id": {
-					"value": 35
-				}
-			},
-			"pw:skin_36": {
-				"minecraft:skin_id": {
-					"value": 36
-				}
-			},
-			"pw:skin_37": {
-				"minecraft:skin_id": {
-					"value": 37
-				}
-			},
-			"pw:skin_38": {
-				"minecraft:skin_id": {
-					"value": 38
-				}
-			},
-			"pw:skin_39": {
-				"minecraft:skin_id": {
-					"value": 39
-				}
-			},
-			"pw:skin_40": {
-				"minecraft:skin_id": {
-					"value": 40
-				}
-			},
-			"pw:skin_41": {
-				"minecraft:skin_id": {
-					"value": 41
-				}
-			},
-			"pw:skin_42": {
-				"minecraft:skin_id": {
-					"value": 42
-				}
-			},
-			"pw:skin_43": {
-				"minecraft:skin_id": {
-					"value": 43
-				}
-			},
-			"pw:skin_44": {
-				"minecraft:skin_id": {
-					"value": 44
-				}
-			},
-			"pw:skin_45": {
-				"minecraft:skin_id": {
-					"value": 45
-				}
-			},
-			"pw:skin_46": {
-				"minecraft:skin_id": {
-					"value": 46
-				}
-			},
-			"pw:skin_47": {
-				"minecraft:skin_id": {
-					"value": 47
-				}
-			},
-			"pw:skin_48": {
-				"minecraft:skin_id": {
-					"value": 48
-				}
-			},
-			"pw:skin_49": {
-				"minecraft:skin_id": {
-					"value": 49
-				}
-			},
-			"pw:skin_50": {
-				"minecraft:skin_id": {
-					"value": 50
-				}
-			}
+			"pw:skin_0": {"minecraft:skin_id": {"value": 0}},
+			"pw:skin_1": {"minecraft:skin_id": {"value": 1}},
+			"pw:skin_2": {"minecraft:skin_id": {"value": 2}},
+			"pw:skin_3": {"minecraft:skin_id": {"value": 3}},
+			"pw:skin_4": {"minecraft:skin_id": {"value": 4}},
+			"pw:skin_5": {"minecraft:skin_id": {"value": 5}},
+			"pw:skin_6": {"minecraft:skin_id": {"value": 6}},
+			"pw:skin_7": {"minecraft:skin_id": {"value": 7}},
+			"pw:skin_8": {"minecraft:skin_id": {"value": 8}},
+			"pw:skin_9": {"minecraft:skin_id": {"value": 9}},
+			"pw:skin_10": {"minecraft:skin_id": {"value": 10}},
+			"pw:skin_11": {"minecraft:skin_id": {"value": 11}},
+			"pw:skin_12": {"minecraft:skin_id": {"value": 12}},
+			"pw:skin_13": {"minecraft:skin_id": {"value": 13}},
+			"pw:skin_14": {"minecraft:skin_id": {"value": 14}},
+			"pw:skin_15": {"minecraft:skin_id": {"value": 15}},
+			"pw:skin_16": {"minecraft:skin_id": {"value": 16}},
+			"pw:skin_17": {"minecraft:skin_id": {"value": 17}},
+			"pw:skin_18": {"minecraft:skin_id": {"value": 18}},
+			"pw:skin_19": {"minecraft:skin_id": {"value": 19}},
+			"pw:skin_20": {"minecraft:skin_id": {"value": 20}},
+			"pw:skin_21": {"minecraft:skin_id": {"value": 21}},
+			"pw:skin_22": {"minecraft:skin_id": {"value": 22}},
+			"pw:skin_23": {"minecraft:skin_id": {"value": 23}},
+			"pw:skin_24": {"minecraft:skin_id": {"value": 24}},
+			"pw:skin_25": {"minecraft:skin_id": {"value": 25}},
+			"pw:skin_26": {"minecraft:skin_id": {"value": 26}},
+			"pw:skin_27": {"minecraft:skin_id": {"value": 27}},
+			"pw:skin_28": {"minecraft:skin_id": {"value": 28}},
+			"pw:skin_29": {"minecraft:skin_id": {"value": 29}},
+			"pw:skin_30": {"minecraft:skin_id": {"value": 30}},
+			"pw:skin_31": {"minecraft:skin_id": {"value": 31}},
+			"pw:skin_32": {"minecraft:skin_id": {"value": 32}},
+			"pw:skin_33": {"minecraft:skin_id": {"value": 33}},
+			"pw:skin_34": {"minecraft:skin_id": {"value": 34}},
+			"pw:skin_35": {"minecraft:skin_id": {"value": 35}},
+			"pw:skin_36": {"minecraft:skin_id": {"value": 36}},
+			"pw:skin_37": {"minecraft:skin_id": {"value": 37}},
+			"pw:skin_38": {"minecraft:skin_id": {"value": 38}},
+			"pw:skin_39": {"minecraft:skin_id": {"value": 39}},
+			"pw:skin_40": {"minecraft:skin_id": {"value": 40}},
+			"pw:skin_41": {"minecraft:skin_id": {"value": 41}},
+			"pw:skin_42": {"minecraft:skin_id": {"value": 42}},
+			"pw:skin_43": {"minecraft:skin_id": {"value": 43}},
+			"pw:skin_44": {"minecraft:skin_id": {"value": 44}},
+			"pw:skin_45": {"minecraft:skin_id": {"value": 45}},
+			"pw:skin_46": {"minecraft:skin_id": {"value": 46}},
+			"pw:skin_47": {"minecraft:skin_id": {"value": 47}},
+			"pw:skin_48": {"minecraft:skin_id": {"value": 48}},
+			"pw:skin_49": {"minecraft:skin_id": {"value": 49}},
+			"pw:skin_50": {"minecraft:skin_id": {"value": 50}}
 		},
 		"components": {
 			"minecraft:type_family": {
